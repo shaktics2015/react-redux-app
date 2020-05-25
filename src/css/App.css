@@ -6,6 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App-banner-img {
+  height: 40vmin;
+  width: 100%;
+  pointer-events: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +40,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.node-content {
+  display: inline;
 }
