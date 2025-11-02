@@ -73,7 +73,7 @@ export default class Search extends Component {
                 </Button>
               </InputGroup.Append>
               <InputGroup.Append>
-                <Button onClick={this.handleGoClick} id="inputGroupPrepend">
+                <Button onClick={this.handleSearchClick} id="inputGroupPrepend">
                   FIND RESULTS
                 </Button>
               </InputGroup.Append>
@@ -86,7 +86,7 @@ export default class Search extends Component {
 
         {this.props.config.showTopNotch ? (
           <div className="search-form-top-notch">
-            <div className="ransparent-bg">POPULAR CITIES IN INDIA </div>
+            <div className="transparent-bg">POPULAR CITIES IN INDIA </div>
             <span className="transparent-bg">ahmedabad</span>
           </div>
         ) : null}
